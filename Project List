@@ -1,0 +1,31 @@
+Possible Features for SE 
+
+Support Type Narrowing on in 
+
+- https://github.com/python/mypy/issues/17101 
+
+- Mypy 
+
+Idiomatic Tuple Element replacement 
+
+- https://github.com/python/mypy/issues/16948 
+
+- Mypy 
+
+Allow Callable Type Hint Before function definition 
+
+- https://github.com/python/mypy/issues/16946 
+
+- Mypy 
+
+Consistent strftime behavior 
+
+- https://github.com/pandas-dev/pandas/issues/58179 
+
+- Pandas 
+
+Capture: copy output when using readouterr() instead of consuming it 
+
+- https://github.com/pytest-dev/pytest/issues/12081 
+
+- pytest 
