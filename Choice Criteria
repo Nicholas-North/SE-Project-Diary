@@ -1,0 +1,87 @@
+Below is the factor's I'll be rating each possible project on, with a scale of 1-3. I will then proceed to explain the reasoning for each rating, and at the end I will choose the project with the highest score as the one I continue on with.
+
+Choice Scale:
+  - Scope: 
+            The size and complexity of the proposed feature. A score of 1 means that either the proposed feature is either too small or large in scope. 2 indicates that it's slightly too limited or expansive in scope than what I'm
+            looking for, but is still manageable. 3 means that the project fits perfectly into the complexity that I'm looking for, and will fill up just over the level of complexity that I'm looking for.
+  - Project Activeness:
+            The number of contributors that the project has. A score of 1 means that the project is essentially inactive or dead. Score of 2 means that there's a sizeable number of contributors, but changes are only made every week or so
+            3 means that there's an incredibly active user base, and that the number of features and discourse coming in is plentiful
+  - Ease of Contribution:
+            How easy it is to make contributions. A score of 1 means that the project has little to no documentation on how to help add to it, and usually likely means there's less of a formula for features. A score of 2 means that the
+            project has some helpful documentation for how to contribute, but maybe that the documentation is old, and it seems like pull requests aren't always accepted. 3 means extensive documentation on how to contribute, and there's a
+            busy environment of contributors/heavy adoption of pull requests
+  - Interest in Feature:
+            Fairly subjective measure, but general gauge of my interest/excitement of a feature. A score of 1 indicates that I'm not particularly thrilled about the topic, but that I think it suits the requirements for the project as a whole.
+            2 means that I'm somewhat engaged by the material/overall project, but nothing that really captures my attention. 3 means that I'm really excited about the topic and think I have a very relevant skillset to handle it
+  - Suitability to skillset:
+            How well I think I'm able to address the problem. A score of 1 means that I'd need to do a fair bit of research in order to be able to solve the problem, potentially getting accustomed to a very niche and complicated
+            libary. 2 means that I'm somewhat familiar with the issues and tools needed for the project, but that I'd need a refresher or crash course in order to solve the problem. 3 means that I think my skillset is perfectly matched
+            to the given problem, and that I have a very clear idea of how I would be able to solve the problem.
+
+Project Option #1: Support Type Narrowing on in
+  - Scope: 2 
+    - Seems fairly innocuous, essentially trying to add a feature to built in IN feature that better captures the ability to loop through custom objects/types. Could be a larger rabbit hole though of underlying issues
+      that would need to be solved that might not necessarily be intended behavior
+  - Project Activeness: 2
+    - Mypy is a fairly frequented library with over 2.6k issues, and a fairly lively contributor discussion board. Not as active as some of the other libraries though like Pandas
+  - Ease of Contribution: 3
+    - mypy has a very robust explanation of how to contribute, and has very clear explanations on how to do integration tests/have a pull request accepted.
+  - Interest in feature: 1
+    - this seems like it has the makings of either being a project that has a quick and not so complex fix, which wouldn't fulfill the overall course requirements, or something that really pulls me deep into the weeds of the code
+      base and possibly more than I can chew
+  - Suitability to skillset: 2
+    - I'm fairly familiar with the built in functions and how to add/build on them, but I would need to do a deep dive into the code base to see exactly how these custom objects work and how they're intended to operate/be used
+  - Total: 10
+Project Option #2: Idiomatic Tuple Element replacement
+  - Scope: 2
+    - The problem is very clear and the project deliverables are very well defined, but I worry that the solution is almost solved in the explanation.
+  - Project Activeness: 2
+    - Mypy is a fairly frequented library with over 2.6k issues, and a fairly lively contributor discussion board. Not as active as some of the other libraries though like Pandas
+  - Ease of Contribution: 3
+    - mypy has a very robust explanation of how to contribute, and has very clear explanations on how to do integration tests/have a pull request accepted.
+  - Interest in feature: 2
+    - One of the more straightforward of the features. Still has some bite to it, and I think that the overally impact isn't too too great
+  - Suitability to skillset: 3
+    - This seems like creating an algorithm that implements the enhancement of the tuple feature, which is really related to list comprehension and such. Shouldn't require too much outside library implementation
+  - Total: 11
+Project Option #3: Allow Callable Type Hint Before function definition 
+  - Scope: 2
+    - This issue has to deal with crafting an override function that allows for type hinting that doesn't cause error. seems to have a lot of community interest in it, and there's some good launching boards for it in other issues.
+  - Project Activeness: 2
+    - Mypy is a fairly frequented library with over 2.6k issues, and a fairly lively contributor discussion board. Not as active as some of the other libraries though like Pandas
+  - Ease of Contribution: 2
+    - mypy has a very robust explanation of how to contribute, and has very clear explanations on how to do integration tests/have a pull request accepted.
+  - Interest in feature: 2
+    - I like the ability to be able to construct my own function instead of having to iterate upon another, cause I feel like it gives me a lot of leeway
+  - Suitability to skillset: 2
+    - Would have to do some refreshing on decorators and other class creation, but otherwise I feel pretty comfortable with taking this challenge on
+  - Total: 10
+Project Option #4: Consistent strftime behavior
+  - Scope: 1
+    - Would require having to go through and update certain functions to include a parameter for engines, which I think that would be interesting but would require an understanding of multiple different python packages and 
+      add-ons, which I think would be too much for what I'm looking for
+  - Project Activeness: 3
+      Pandas is one of the most active open source projects on github, and has a really robust contributing community.
+  - Ease of Contribution: 1
+      While there is really good wiki information for the contributions, there's so many contributors that most small feature requests are quickly solved and anything with enough scope that I'm looking for gets scooped up 
+      by more seasoned developers.
+  - Interest in feature: 2
+      This feature seems like it wouldd be an interesting dive into pyarrow and pandas, which I think would be fun to be part of two incredibly used libraries
+  - Suitability to skillset: 2
+      I have a lot of experience with pandas from my Co-Op experience, but would need to refresh myself on pyarrow
+  - Total: 7
+Project Option #5: Capture: copy output when using readouterr() instead of consuming it 
+  - Scope: 1
+      I feel that this feature seems more simpler than it is, and that it would quickly spiral into learning where to keep output, how to handle different types of stdout, and other minor complications that would build up
+  - Project Activeness: 1
+      Probably the least active of all the projects, but still regularly maintained and updated
+  - Ease of Contribution: 2
+      Fairly standard issue contributor notes
+  - Interest in feature: 3
+      this is probably the most interesting of all the features I have, and I really think it would be interesting to explore how to capture output and properly put it in the file explorer.
+  - Suitability to skillset: 1
+      I have the least experience with this library, and don't really know how much I would need to research to be competent
+  - Total: 8
+Highest Score Project:
+  - 
