@@ -1,0 +1,8 @@
+List of edits/additions that'll be need to made to the codebase:
+
+1.Creation of new function called CaptureFixture.copyouterr(), that will properly maintain the stdoutt stream of text rather than delete it
+  This will entail reviewing it's companion function CaptureFixture.readouterr(...); and mimic'ing it's functionality but getting rid of the destructive input thread portion
+2. Implementing this as an option in all classes that have a readouterr function
+3. Creation of a test to gauge proper functionality
+4. Coming up with a unit test for the copyouterr() function
+5. Following the guidelines of pytest to create an integration test for my update, and ensuring there's no missed dependecies or other hiccups.
