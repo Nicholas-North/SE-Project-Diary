@@ -72,7 +72,7 @@ Project Option #4: Consistent strftime behavior
       I have a lot of experience with pandas from my Co-Op experience, but would need to refresh myself on pyarrow
   - Total: 7
 Project Option #5: Capture: copy output when using readouterr() instead of consuming it 
-  - Scope: 1
+  - Scope: 3
       I feel that this feature seems more simpler than it is, and that it would quickly spiral into learning where to keep output, how to handle different types of stdout, and other minor complications that would build up
   - Project Activeness: 1
       Probably the least active of all the projects, but still regularly maintained and updated
@@ -80,8 +80,8 @@ Project Option #5: Capture: copy output when using readouterr() instead of consu
       Fairly standard issue contributor notes
   - Interest in feature: 3
       this is probably the most interesting of all the features I have, and I really think it would be interesting to explore how to capture output and properly put it in the file explorer.
-  - Suitability to skillset: 1
+  - Suitability to skillset: 2
       I have the least experience with this library, and don't really know how much I would need to research to be competent
-  - Total: 8
-Highest Score Project: Idiomatic Tuple Element replacement
+  - Total: 11
+Highest Score Project: copy output when using readouterr() instead of consuming it 
   - 
